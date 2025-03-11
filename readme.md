@@ -1,4 +1,4 @@
-### 1. Redis commands for.. installation with docker
+### 1. Redis commands for... installation with docker
 go to the website:
 ```
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker/
