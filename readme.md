@@ -1,4 +1,4 @@
-### 1. Redis commands for... installation with docker
+### 1. Redis commands for.. installation with docker
 go to the website:
 ```
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker/
@@ -44,3 +44,23 @@ Use with node.js
 
 
 
+## Lists
+1. lpush <---push from left side 
+eg. lpush messages hello
+2. rpush 
+3. llen messages  <----return length..
+4. lpop, rpop   <---eg. lpop messages
+5. lmove
+6. ltrim
+
+Blocking commands
+
+1. blpop   <----blpop messages 10   <--sec.  and wait in blocking mode
+2. lrange messages 0 -1  <----reads all messages til end..
+3. del messages  <---delete messages
+
+## Sets
+1. sadd ip 1   <---here no duplicate..allowed..
+2. sismember ip 1  <----if exists returns 1 otherwise 0
+3. sinter <---gives common elements from sets..
+4. scard <---returns the size of a set
